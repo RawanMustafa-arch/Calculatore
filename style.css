@@ -1,0 +1,58 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff6b81;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Calculator Section Styling */
+.calculator {
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator img {
+    width: 100px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #ff4757;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #e84118;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
